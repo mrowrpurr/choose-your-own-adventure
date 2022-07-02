@@ -1,0 +1,19 @@
+rndforvr (105)
+Tile 16893 is the Guardian
+Tile 17094 is a good spot for a critter/object
+16777280 is Weak Peasant - NFTRMP is a pretty good one.
+Or 16777292 is Security Bot and it's pretty cool.
+Oh, no! 16777494 Hubologist is ideal ideal ideal.
+Although I prefer the cloak color of 16777339 Hero Andro (also Gordon 16777392)
+Starting tile: 18495
+Dialogue person direction: 2
+Hero direction: 5
+
+Starting tile if artemple - 16486
+
+gfade_out
+move_to
+critter_attempt_placement
+
+
+
