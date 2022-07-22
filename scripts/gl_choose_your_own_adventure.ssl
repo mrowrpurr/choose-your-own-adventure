@@ -2,23 +2,16 @@
    Choose Your Own Adventure!
 */
 
-#include "define.h"
+ #include "define.h"
+
+#define ROBED_FIGURE_PID PID_HERO_ROBE
+#define ROBED_FIGURE_STARTING_TILE 16486
 
 procedure start begin
    variable mysterious_person;
 
    if game_loaded then begin
-      // gfade_out(420);
-      // load_map("rndforvr", 18495);
-      mysterious_person = create_object(PID_HERO_ROBE, 17094, 0);
-      remove_script(mysterious_person);
-      critter_attempt_placement(mysterious_person, 17094, 0);
-      // gfade_in(420);
-
-
-
-      // sleep
-
-//      face_critter
+      mysterious_person = create_object(ROBED_FIGURE_PID, 0, 0);
+      critter_attempt_placement(mysterious_person, ROBED_FIGURE_STARTING_TILE, 0);
    end
 end

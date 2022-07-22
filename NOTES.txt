@@ -1,3 +1,11 @@
+Casino Bouncer
+16777654
+
+Tile: 16486
+
+Script to attach and override desc and talk: ECBESCOW (645)
+
+
 rndforvr (105)
 Tile 16893 is the Guardian
 Tile 17094 is a good spot for a critter/object
@@ -17,3 +25,9 @@ critter_attempt_placement
 
 
 
+frm 16777218 HAROBE is the FID I want.
+
+For the PID look_at description, we'll use: ... Bouncer? Crazies? Scientist. Shop Owner?
+Shadow-Who-Walks. Technicion. Wilder?
+
+16777667 Scientist.
